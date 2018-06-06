@@ -1,0 +1,55 @@
+/*! Amiri */
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Amiri-Regular.ttf);
+}
+
+/*! UbuntuMono */
+@font-face {
+  font-family: 'UbuntuMono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/UbuntuMono-Regular.ttf);
+}
+
+/*! OldStandard */
+@font-face {
+  font-family: 'Old Standard TT';
+  src: url(../fonts/OldStandard.woff2);
+}
+
+/*! SanFrancisco */
+@font-face {
+  font-family: 'SanFrancisco';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SanFrancisco.ttf);
+}
+
+/*! TimesNewRoman */
+@font-face {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/TimesNewRoman.ttf);
+}
+
+/*! HandWriting */
+@font-face {
+  font-family: 'HandWriting';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/HandWriting.ttf);
+}
+
+/*! Nintendo */
+@font-face {
+  font-family: 'Nintendo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Nintendo.ttf);
+}
+
+
