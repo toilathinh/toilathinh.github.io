@@ -445,7 +445,7 @@
 }
 /*! mine end */
 /*! windows start*/
- .center{
+ .center-p{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1795,7 +1795,7 @@
      font-family: HandWriting;
      color: white;
      text-align: center;
-     font-size: 10em;
+     font-size: calc(10vw + 5vh);
      transform: rotate(-18deg);
      display: flex;
      align-items: center;
@@ -1803,9 +1803,8 @@
      height: 100%;
 }
  #footer img {
-     width: 40%;
+     width: calc(30vw + 20vh);
      position: absolute;
-     top: 25%;
 }
  #footer img.left {
      left: -100px;
@@ -1813,46 +1812,15 @@
  #footer img.right {
      right: -110px;
 }
- .layer {
+.layer {
      height: 100%;
      width: 100%;
 }
+.center-d {
+    width:  100%;
+    height:  100%;
+    display:  flex;
+    align-items:  center;
+    justify-content:  center;
+}
 /*! footer end */
-
-/*! footer responsive start*/
- @media (max-width: 320px) {
-     .rotatetext {
-         font-size: 4em !important;
-    }
-     #footer img {
-         width: 63% !important;
-    }
-}
- @media (max-width: 576px) {
-     .rotatetext {
-         font-size: 5.5em;
-    }
-     #footer img {
-         width: 55%;
-         top: 35%;
-    }
-}
- @media (min-width: 576px) and (max-width: 767px) {
-     .rotatetext {
-         font-size: 8em;
-    }
-     #footer img {
-         top: 35%;
-    }
-}
- @media (min-width: 768px) and (max-width: 991px) {
-     .rotatetext {
-         font-size: 8em;
-    }
-     #footer img {
-         width: 45%;
-         top: 30%;
-    }
-}
-/*! footer responsive end */
- 
