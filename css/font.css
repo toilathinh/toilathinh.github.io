@@ -3,7 +3,7 @@
   font-family: 'Amiri';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/Amiri-Regular.ttf);
+  src: url(../fonts/Amiri-Regular.woff);
 }
 
 /*! UbuntuMono */
@@ -11,7 +11,7 @@
   font-family: 'UbuntuMono';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/UbuntuMono-Regular.ttf);
+  src: url(../fonts/UbuntuMono-Regular.woff);
 }
 
 /*! OldStandard */
@@ -25,15 +25,7 @@
   font-family: 'SanFrancisco';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/SanFrancisco.ttf);
-}
-
-/*! TimesNewRoman */
-@font-face {
-  font-family: 'Times New Roman';
-  font-style: normal;
-  font-weight: 100;
-  src: url(../fonts/TimesNewRoman.ttf);
+  src: url(../fonts/SanFrancisco.woff);
 }
 
 /*! HandWriting */
@@ -41,7 +33,7 @@
   font-family: 'HandWriting';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/HandWriting.ttf);
+  src: url(../fonts/HandWriting.woff);
 }
 
 /*! Nintendo */
@@ -49,7 +41,7 @@
   font-family: 'Nintendo';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/Nintendo.ttf);
+  src: url(../fonts/Nintendo.woff);
 }
 
 

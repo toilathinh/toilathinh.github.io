@@ -25,25 +25,38 @@ function init(){
 	$('#fullpage').fullpage({
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Who', 'Goal', 'Mine', 'Info', 'Bye'],
+		navigationTooltips: ['Who', 'Goal', 'Academiclevel', 'Achievements', 'Skills', 'Info', 'Bye'],
 		onLeave: function(index, nextIndex, direction){
 			if( $(window).scrollTop() <= 50) {
 				$('.wow').removeClass('animated');
 				$('.wow').removeAttr('style');
 				new WOW().init();
 			}
-			if (index == 2){
-				if ($("#swipe-container").hasClass("opening")){
-					$("#swipe-container .parent-transform[style*='transform: translateY(0px)']").click();
+			if (direction == 'down'){
+				if (index == 4){
+					$("#titlecontent").addClass("scroll");
 				}
 				else{
-					$(".parent-transform .page").removeClass("unanimated");
-				}
+					if (index == 5){
+						$("#typeit").remove();
+						$("#crt").html("<h1 id='typeit'></h1>");
+						typeit();
+					} 
+					$("#titlecontent").removeClass("scroll");
+				} 
 			}
-			if (index == 3){
-				$("#typeit").remove();
-				$("#crt").html("<h1 id='typeit'></h1>");
-				typeit();
+			else{
+				if (index == 6){
+					$("#titlecontent").addClass("scroll");
+				}
+				else{
+					if (index == 7){
+						$("#typeit").remove();
+						$("#crt").html("<h1 id='typeit'></h1>");
+						typeit();
+					} 
+					$("#titlecontent").removeClass("scroll");
+				} 
 			}
 		}
 	});
@@ -52,7 +65,7 @@ function init(){
 }
 
 function newspaper(){
-	$(".parent-transform .article-3-link").click(function(e) {
+	$(".article-3-link").click(function(e) {
 		e.preventDefault();
 		e.stopPropagation();
 		$("#the-prophet").toggleClass("view-article-3");
