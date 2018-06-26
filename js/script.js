@@ -201,13 +201,7 @@ function resize(){
 	$("#dance img").css("width", dwidth + "px");
 	var gfont = wsize*4;
 	$(".glitch span").css("font-size", gfont + "em");
-	var wwidth = wsize*600;
-	$(".windows").css("width", wwidth + "px");
-	var wme = wsize*950;
-	$(".me").css("width", wme + "px");
-	var wimg = wsize*200;
-	$(".me .img").css("width", wimg + "px");
-	var himg = wsize*540;
+	var himg = $(".me .img").width()*2.5 + 30;
 	$(".me .img").css("height", himg + "px");
 	var whfont = wsize*2;
 	$(".windows-inner h1").css("font-size", whfont + "em");

@@ -350,6 +350,9 @@
          text-align: justify;
          width: 90vw;
     }
+    .glitch .text,  .glitch span, .glitch span:nth-child(3) {
+         -webkit-animation: none !important;
+    }
 }
 /*! goal responsive end */
 /*! windows start*/
@@ -366,7 +369,7 @@
      border-left-color: #dbdbdb;
      border-top-color: #dbdbdb;
      background-color: #bfbfbf;
-     width: 45%;
+     width: 50vw;
      font-size: 13px;
      padding: 2px;
      margin: auto;
@@ -468,15 +471,14 @@
     }
 }
  .me {
-     position: absolute;
-     width: 70%;
+     width: 71vw;
      height: 100%;
      display: flex;
      align-items: center;
 }
  .me .img {
-     width: 200px;
-     height: 540px;
+     width: 12.5vw;
+     height: 36vw;
      position: absolute;
 }
  .me .img:first-child {
